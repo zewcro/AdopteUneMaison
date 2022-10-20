@@ -16,10 +16,10 @@ import {
 } from 'themes/commonStyles';
 
 const footerLinks = [
-  { id: 1, text: 'Privacy', url: '#' },
-  { id: 2, text: 'Terms', url: '#' },
-  { id: 3, text: 'Sitemap', url: '#' },
-  { id: 4, text: 'Destinations', url: '#' },
+  { id: 1, text: 'Vie privée', url: '#' },
+  { id: 2, text: 'Conditions d"utilisation', url: '#' },
+  { id: 3, text: 'Gestion', url: '#' },
+  { id: 4, text: 'Nos Logements', url: '#' },
 ];
 
 const Footer = () => {

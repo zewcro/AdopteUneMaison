@@ -1,15 +1,13 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-// react icons
-import { FaAirbnb } from 'react-icons/fa';
+// react icons*
 import { flexCenter } from 'themes/commonStyles';
-import { pink } from '@mui/material/colors';
+import { orange } from '@mui/material/colors';
 
 const Logo = () => {
   return (
     <Box sx={flexCenter}>
-      <FaAirbnb size={40} color={pink[500]} />
       <Typography
         sx={{
           ml: 1,
@@ -19,7 +17,7 @@ const Logo = () => {
         }}
         component="h3"
       >
-        airBnB
+        AUM
       </Typography>
     </Box>
   );

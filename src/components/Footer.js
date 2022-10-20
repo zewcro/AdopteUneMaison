@@ -39,7 +39,7 @@ const Footer = () => {
         >
           <Stack>
             <Paper>
-              <Link href="#"> 2022 Airbnb Copyright </Link>
+              <Link href="#"> 2022 AUM Copyright </Link>
             </Paper>
             {footerLinks.map((link) => {
               return (
@@ -56,9 +56,9 @@ const Footer = () => {
                 <Box sx={{ ...justifyCenter, mr: 1 }}>
                   <BsGlobe size={24} />
                 </Box>
-                English (CA)
+                Francais (EUR)
               </Button>
-              <Button> $CAD </Button>
+              <Button> €EUR </Button>
               <Button>
                 Support & Resources
                 <Box sx={{ ...justifyCenter, ml: 1 }}>
